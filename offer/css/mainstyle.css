@@ -211,6 +211,11 @@ cite{
     background-position: 50% 50%;
 }
 
+.lg-btn{
+    font-size: 1.1em;
+    padding: 10px 20px;
+}
+
 /*right-side*/
 
 .right{
@@ -352,12 +357,12 @@ footer.pb-5{padding-bottom: 200px!important; padding-top: 150px;}
 
 @media only screen and (max-width:767px) {
 .tick{margin-top: 0px!important;margin-bottom: 20px!important;}
-.lg-btn{padding: 10px;}
 .video {width: 15rem!important; margin-bottom: 10px;}
 .testimonial li{border:none;}
 .check img{padding: 5px 0 15px; float: left; }
 .check .list-group-item{padding-bottom: 5px;}
-.btn{}
+.btn{font-size: 1.1em; padding: 10px 40px;}
+.lg-btn{padding: 10px; font-size: 1rem;}
 }
 
 @media only screen and (max-width: 675px){
@@ -381,11 +386,12 @@ h5{font-size: 1.1rem;}
 .subscription-footer p{font-size: 1em;}
 h3{font-size: 1.1rem;}
 footer.pb-5{padding-top: 180px;}
-.btn{padding: 10px;}
+.btn{padding: 10px;font-size: 1em;}
 .features-t img{width: 50px!important;}
 .features-s img{width: 60px!important;}
 .testimonial img{width:60px;}
 .free.mb-5{margin-bottom: 20px!important;}
+
 }
 
 @media only screen and (max-width: 425px){
@@ -397,11 +403,13 @@ h5{font-size: 1rem;}
 .discount-bg{width: 100%;}
 .accordion.my-5{margin-top: 0px!important;}
 header {padding-bottom: 20px;}
+.subscription-footer{height: 150px;}
+footer.pb-5{padding-bottom: 150px!important; }
 }
 
 @media only screen and (max-width: 320px){
-
+.btn{font-size: .8em;}
 .subscription-footer p{font-weight: 400; font-size: .8em;}
 .subscription-footer .btn{font-size: .8em; }
-.subscription-footer{height: 150px;}
+
 }
