@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="476px" viewBox="0 0 1440 476" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="101.940104%" y1="162.358159%" x2="10.7524957%" y2="-9.35473703%" id="linearGradient-1">
+            <stop stop-color="#376AA4" offset="0%"></stop>
+            <stop stop-color="#0B294E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="offer" fill-rule="nonzero">
+            <g id="Group-9" transform="translate(-55.000000, -373.000000)">
+                <path d="M54,849 C309.666667,788.851271 549.833333,774.443573 774.5,805.776906 C999.166667,837.110239 1239.33333,837.110239 1495,805.776906 L1495,0 L55,0 L54,849 Z" id="Path-2" fill="url(#linearGradient-1)"></path>
+                <path d="M55,373.547599 L55,464.685107 C249.01064,472.912138 387.019297,442.532968 469.02597,373.547599 C519.029107,331.484134 381.02045,331.484134 55,373.547599 Z" id="Path-3" fill-opacity="0.225996377" fill="#285487"></path>
+                <path d="M0,372.5 L0,499 C202.790826,499 345.544894,456.833333 428.262204,372.5 C478.292835,330.5 335.538767,330.5 0,372.5 Z" id="Path-3-Copy-3" fill-opacity="0.225996377" fill="#285487"></path>
+                <path d="M1146,739.687822 L1146,831 C1296.66514,823.18791 1412.99847,784.723073 1495,715.605489 C1442.33333,710.253859 1326,718.281304 1146,739.687822 Z" id="Path-3-Copy" fill-opacity="0.179715806" fill="#1A3E6A" transform="translate(1320.500000, 772.500000) scale(-1, -1) translate(-1320.500000, -772.500000) "></path>
+                <path d="M1223,700.03734 L1223,828 C1322.3318,819.998732 1412.99847,770.346554 1495,679.043466 C1421.66667,678.376993 1331,685.374951 1223,700.03734 Z" id="Path-3-Copy-2" fill-opacity="0.179715806" fill="#1A3E6A" transform="translate(1359.000000, 753.500000) scale(-1, -1) translate(-1359.000000, -753.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
