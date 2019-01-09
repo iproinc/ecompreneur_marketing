@@ -111,6 +111,7 @@ ul.lesson-container li h3 {
 .no-thanks {
   color: var(--primary-color);
   text-decoration: underline;
+  font-size: 1.2rem;
 }
 
 .no-thanks:hover {
