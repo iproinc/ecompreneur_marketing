@@ -1,0 +1,130 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+header, footer {
+  background-color: #0c6cd4;
+}
+
+.logo {
+  max-height: 50px;
+  height: 30px;
+}
+
+.body {
+  height: 93vh;
+  display: flex;
+}
+
+.active {
+  font-weight: 700;
+}
+
+article {
+  position: relative;
+  overflow-y: scroll;
+  width: 75%;
+  scroll-behavior: smooth;
+  padding-left: 20px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.side-nav {
+  width: 25%;
+  background: -webkit-linear-gradient(-180deg, rgb(239, 246, 255), rgb(255, 255, 255));
+  background: linear-gradient(-180deg, rgb(239, 246, 255), rgb(255, 255, 255));
+  margin: 10px;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+footer {
+  font-size: 0.9rem;
+  border-radius: 4px;
+  margin-bottom: 100vh;
+}
+
+footer a, footer p {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer li::before {
+  content: " | ";
+  padding-right: 0.3em;
+}
+
+footer li {
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+footer li:hover {
+  transform: translate(0,-1px);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .body {
+    height: 100%;
+  }
+  .side-nav {
+    display: none;
+  }
+  article {
+    width: 100%;
+    padding-left: 0;
+  }
+  footer {
+    margin-bottom: 0;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .body {
+    height: 100%;
+  }
+  .side-nav {
+    display: none;
+  }
+  article {
+    width: 100%;
+    padding-left: 0;
+  }
+  footer {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .footer-link-container {
+    flex-direction: column-reverse;
+  }
+
+  .footer-links {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .footer-links li {
+    display: block;
+    padding-bottom: 10px;
+    font-weight: 700;
+  }
+
+  .footer-links li::before {
+    content: "";
+  }
+}
+
+
