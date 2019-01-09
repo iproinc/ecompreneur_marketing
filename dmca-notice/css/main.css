@@ -1,10 +1,15 @@
+:root {
+  --primary-color: #0c6cd4;
+  --secondary-color: #193D69;
+}
+
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 
 header, footer {
-  background-color: #0c6cd4;
+  background-color: var(--secondary-color);
 }
 
 .logo {
@@ -42,6 +47,10 @@ article {
   margin: 10px;
   padding: 16px;
   border-radius: 4px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: var(--secondary-color)!important;
 }
 
 footer {
