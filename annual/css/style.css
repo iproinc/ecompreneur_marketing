@@ -1,0 +1,200 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #0c6cd4;
+}
+
+.title-blue {
+  color: #0c6cd4;
+  font-weight: 700;
+}
+
+.logo {
+  height: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.pb-gray {
+  background-color: #cccccc;
+  border-right: 1px solid #ffffff;
+}
+
+.progress {
+  position: relative;
+  height: 22px;
+  border-radius: 0;
+}
+
+.cta {
+  white-space: normal;
+}
+
+.embed-responsive {
+  margin:0 auto;
+}
+
+.embed-responsive-16by9::before {
+  padding-top: 0 !important;
+}
+
+div a.btn-success {
+  font-size: 26px;
+}
+
+.left-content {
+  width: 45%;
+  margin-right: 20px;
+}
+
+.right-content {
+  width: 45%;
+  margin-left: 20px;
+}
+
+.right-content img{
+  height: 450px;
+  object-fit: contain;
+}
+
+.right-content  p {
+  font-size: 1.5rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.countdown {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+ul.lesson-container {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.lesson-container svg {
+  float:left;
+}
+
+ul.lesson-container li p {
+  font-size: 18px;
+}
+
+ul.lesson-container li h3 {
+  font-size: 1.5rem;
+}
+
+.fa-check {
+  font-size: 34px;
+  color: #FFD421;
+}
+
+.lesson-container {
+  margin-bottom: 40px;
+}
+
+.right-content h4.text-warning {
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.no-thanks {
+  color: #1A507C;
+  text-decoration: none;
+}
+
+.no-thanks:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  font-size: 14px;
+  background-color: #0c6cd4;
+}
+.list-unstyled {
+  padding-left:0;
+  list-style:none;
+}
+.list-inline {
+  padding-left:0;
+  margin-left:-5px;
+  list-style:none;
+}
+.list-inline > li {
+  display:inline-block;
+  padding-right:5px;
+  padding-left:5px;
+}
+footer li::before {
+  content: " | ";
+  padding-right: 0.3em;
+}
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+li a:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+/* END FOOTER */
+
+@media only screen and (max-width: 1200px) {
+  .primary-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left-content {
+    width: 500px;
+    margin-right: 0;
+    margin:0 auto;
+  }
+  .right-content {
+    width: 500px;
+    margin-left: 0;
+    margin:0 auto;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .left-content {
+    width: 325px;
+  }
+  .right-content {
+    width: 325px;
+  }
+  .timer {
+    margin-left: -25px;
+  }
+  h4.text-warning {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 21px;
+  }
+  footer div {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #cbBadge {
+    display: block !important;
+  }
+  .right-content img {
+    height: 300px;
+  }
+}
