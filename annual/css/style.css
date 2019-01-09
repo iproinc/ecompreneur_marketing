@@ -1,14 +1,18 @@
+:root {
+  --primary-color: #0c6cd4;
+  --secondary-color: #193D69;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
 }
 
 .header {
-  background-color: #0c6cd4;
+  background-color: var(--secondary-color);
 }
 
 .title-blue {
-  color: #0c6cd4;
+  color: var(--primary-color);
   font-weight: 700;
 }
 
@@ -105,7 +109,7 @@ ul.lesson-container li h3 {
 }
 
 .no-thanks {
-  color: #1A507C;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -116,7 +120,7 @@ ul.lesson-container li h3 {
 /* FOOTER */
 footer {
   font-size: 14px;
-  background-color: #0c6cd4;
+  background-color: var(--secondary-color);
 }
 .list-unstyled {
   padding-left:0;
