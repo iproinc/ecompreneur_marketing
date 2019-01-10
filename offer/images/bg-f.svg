@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1440px" height="383px" viewBox="0 0 1440 383" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1441px" height="346px" viewBox="0 0 1441 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
     <title>Path 2</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="55.1955023%" y1="-39.0329227%" x2="55.1955023%" y2="78.1229602%" id="linearGradient-1">
+        <linearGradient x1="51.9040597%" y1="-50.7857659%" x2="50%" y2="93.9577312%" id="linearGradient-1">
             <stop stop-color="#376AA4" offset="0%"></stop>
             <stop stop-color="#0B294E" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="offer" transform="translate(0.000000, -19772.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
-            <path d="M-1,19772 C254.666667,19832.2163 494.833333,19846.6402 719.5,19815.2716 C944.166667,19783.9031 1184.33333,19783.9031 1440,19815.2716 L1440,20155 L2.3625546e-13,20155 L-1,19772 Z" id="Path-2"></path>
-        </g>
+        <polygon id="Path-2" fill="url(#linearGradient-1)" fill-rule="nonzero" points="0 346 1441 346 1441 0 1 0"></polygon>
     </g>
 </svg>
