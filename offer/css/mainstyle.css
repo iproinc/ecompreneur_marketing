@@ -332,13 +332,8 @@ cite{
 /* clickbank badge*/
 .cbtb .trust-badge.header{
   padding: 10px;
-  border-bottom: 1px solid rgba(255,255,255,.15)!important;
 }
 
-.cbtb .trust-badge.black, .cbtb .cbtb-modal-content.black{
-    background-color: #074071!important;
-    border-bottom: 1px solid rgba(255,255,255,.15)!important;
-}
 
 
 @media only screen and (max-width: 1199px){
