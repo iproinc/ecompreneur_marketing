@@ -1,7 +1,7 @@
 
 :root {
-  --blue: #255082;
-  --orange: #EC752E;
+  --blue: #0C6CD4;
+  --green: #0ab546;
   --red: #C35E45;
 }
 
@@ -16,7 +16,6 @@ header{
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-size: cover;
-  padding-bottom: 80px;
 }
 
 h1{
@@ -30,7 +29,7 @@ h2{
 }
 
 h3{
-  color: var(--orange);
+  color: var(--green);
   font-weight: 700;
 }
 
@@ -49,14 +48,14 @@ hr{
 }
 
 footer{
-  background-image: url(../images/footer.svg);
+  background-image: url(../images/bg-f.svg);
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
   font-size: .85em;
   color: #fff;
-  padding-top: 110px;
-  margin-top: -220px;
+  padding-top:50px;
+  margin-top: -120px;
   z-index: 9;
   position: relative;
 }
@@ -68,7 +67,7 @@ footer a:hover{
 }
 
 .btn{
-  background-color: var(--orange);
+  background-color: var(--green);
   color:#fff;
   padding: 10px 80px;
   border-radius: 0;
@@ -85,8 +84,8 @@ footer a:hover{
   color: var(--blue);
 }
 
-.orange{
-  color: var(--orange);
+.green{
+  color: var(--green);
 }
 
 .red{
@@ -117,10 +116,10 @@ cite{
 
 .dark-bg{
   padding: 0 20px 5px;
-  background: #255082; /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 40%, #255082 40%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 40%,#255082 40%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffffff 40%,#255082 40%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #0C6CD4; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 40%, #0C6CD4 40%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 40%,#0C6CD4 40%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 40%,#0C6CD4 40%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#255082',GradientType=0 ); /* IE6-9 */
 }
 
@@ -135,7 +134,7 @@ cite{
 }
 
 .free{
-  color: var(--orange);
+  color: var(--green);
   font-size: 1.5em;
   font-weight: 700;
   line-height: 1.2;
@@ -154,12 +153,12 @@ cite{
 }
 
 .discount{
-  color: var(--orange);
+  color: var(--green);
   font-weight: 700;
 }
 
 .discount-bg{
-  border-top: 45px solid #FFEDE0;
+  border-top: 45px solid #EFF9EB;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top-left-radius:10px; 
@@ -219,20 +218,20 @@ cite{
 /*right-side*/
 
 .right{
-  background-color: #FFFBF8;
-  border: 1px solid var(--orange);
+  background-color: #FAFFF9;
+  border: 1px solid var(--green);
   padding: 30px;
   position: sticky;
   top: 20px;
 }
 
-.right h1{
+.right h2{
   color: var(--blue);
   font-size: 1.1em;
   font-weight: 700;
 }
 
-.right h2{
+.right h3{
   color: #4A4A4A;
   font-size: .9em;
   font-weight: 400;
@@ -357,7 +356,7 @@ header{padding-bottom: 40px;}
 .subscription-footer p{font-size: 1.3em; font-weight: 900;}
 .subscription-footer .btn{font-size: 1.2em;}
 .subscription-footer {background: #131e3a; bottom: 0; display: block; height: 180px; left: 0; padding: 15px 10px 50px; position: fixed; width: 100%; z-index: 100; color: #fff; text-align: center;}
-footer.pb-5{padding-bottom: 200px!important; padding-top: 150px;}
+footer.pb-5{padding-bottom: 200px!important;}
 }
 
 @media only screen and (max-width:767px) {
