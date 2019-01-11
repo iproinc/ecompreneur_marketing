@@ -54,6 +54,17 @@ body {
   top: -10px;
 }
 
+.inactive{
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* msie */
+  background-color: #000;
+}
+
+.inactive img {
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* msie */
+}
+
 .form-control{
   background: rgba(249,255,251,0.78);
   border: 1px solid #25BE5B;
