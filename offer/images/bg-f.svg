@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1441px" height="346px" viewBox="0 0 1441 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
-    <title>Path 2</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="51.9040597%" y1="-50.7857659%" x2="50%" y2="93.9577312%" id="linearGradient-1">
-            <stop stop-color="#376AA4" offset="0%"></stop>
-            <stop stop-color="#0B294E" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Path-2" fill="url(#linearGradient-1)" fill-rule="nonzero" points="0 346 1441 346 1441 0 1 0"></polygon>
-    </g>
-</svg>
+<svg height="346" viewBox="0 0 1441 346" width="1441" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" x1="51.90406%" x2="50%" y1="-50.785766%" y2="93.957731%"><stop offset="0" stop-color="#376aa4"/><stop offset="1" stop-color="#0b294e"/></linearGradient><path d="m0 346h1441v-346h-1440z" fill="url(#a)"/></svg>

@@ -382,6 +382,10 @@ h5{font-size: 1.1rem;}
 .btn{white-space: normal;}
 }
 
+@media only screen and (max-width: 480px) {
+  #cbBadge {display: block !important;}
+}
+
 @media only screen and (max-width: 454px){
 .subscription-footer p{font-size: 1em;}
 h3{font-size: 1.1rem;}
