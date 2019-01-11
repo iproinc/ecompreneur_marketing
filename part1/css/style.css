@@ -45,6 +45,7 @@ body {
   position: absolute;
   left: 25px;
   top: -10px;
+  z-index: 9;
 }
 
 .video-tag-active {
@@ -56,13 +57,13 @@ body {
 
 .inactive{
   opacity: 0.4;
-  filter: alpha(opacity=40); /* msie */
+  filter: alpha(opacity=40);
   background-color: #000;
 }
 
 .inactive img {
   opacity: 0.4;
-  filter: alpha(opacity=40); /* msie */
+  filter: alpha(opacity=40);
 }
 
 .form-control{
