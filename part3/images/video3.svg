@@ -14,8 +14,9 @@
                     <text id="2:30-copy" font-family="Roboto-Regular, Roboto" font-size="10.4" font-weight="normal" fill="#4A4A4A">
                         <tspan x="290.4" y="213">2:30</tspan>
                     </text>
-                    <rect id="Rectangle-Copy-4" fill="#5491DB" fill-rule="nonzero" x="11" y="0" width="69" height="26"></rect>
-                    <text id="Part-3" font-family="Roboto-Bold, Roboto" font-size="14" font-weight="bold" fill="#FFFFFF">
+                    <rect id="Rectangle-Copy" fill-opacity="0.412845335" fill="#888888" fill-rule="nonzero" x="0" y="11" width="332.8" height="225.6"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#FFD421" fill-rule="nonzero" x="11" y="0" width="69" height="26"></rect>
+                    <text id="Part-3" font-family="Roboto-Bold, Roboto" font-size="14" font-weight="bold" fill="#183C68">
                         <tspan x="23" y="18">PART 3</tspan>
                     </text>
                 </g>
