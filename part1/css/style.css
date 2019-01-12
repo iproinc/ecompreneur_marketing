@@ -35,7 +35,8 @@ body {
 }
 
 .small-video-container {
-  width: 60%;
+  width: 100%;
+  max-width: 625px;
 }
 
 .small-video {
@@ -69,7 +70,7 @@ body {
   position: absolute;
   z-index: 9;
   top: 40%;
-  left: 30%;
+  left: 20%;
   color: white;
   font-weight: 700;
   text-align: center;
@@ -81,7 +82,7 @@ body {
 }
 
 .inactive{
-  opacity: 0.4;
+  opacity: 0.5;
   filter: alpha(opacity=40);
   background-color: #000;
 }
@@ -102,13 +103,30 @@ body {
   border-top: 8px solid #28a745;
   background-color: white;
   width: 100%;
-  max-width: 555px;
+  max-width: 625px;
+  padding: 20px 30px;
+}
+
+.cta-form input, .subscribe-btn {
+  width: 75%!important;
 }
 
 .cta {
   white-space: normal;
   font-size: 26px;
   font-weight: 700;
+}
+
+.privacy-text {
+  font-size: 0.7rem;
+}
+
+.subscribe-btn {
+  height: 55px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .mobile{
@@ -242,5 +260,13 @@ li a:hover {
 
   .cta {
     font-size: 20px;
+  }
+  
+  .cta-form {
+    padding: 20px;
+  }
+
+  .cta-form input {
+    width: 100%!important;
   }
 }
