@@ -160,7 +160,7 @@ cite{
 }
 
 .discount-bg{
-  border-top: 66px solid #EFF9EB;
+  border-top: 49px solid #EFF9EB;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top-left-radius:10px;
@@ -168,7 +168,7 @@ cite{
   height: 0;
   width: 60%;
   margin: auto;
-  margin-top: -71px;
+  margin-top: -64px;
 }
 
 .testimonial li{
@@ -353,7 +353,7 @@ header{padding-bottom: 40px;}
 .featured{padding-top: 20px!important;padding-bottom: 20px!important;}
 .right{display: none;}
 .mobile{display: block;}
-.subscription-footer p{font-size: 1.3em; font-weight: 900;}
+.subscription-footer p{font-size: 1.3em; font-weight: 700;}
 .subscription-footer .btn{font-size: 1.2em;}
 .subscription-footer {background: #131e3a; bottom: 0; display: block; height: 180px; left: 0; padding: 15px 10px 50px; position: fixed; width: 100%; z-index: 100; color: #fff; text-align: center;}
 footer.pb-5{padding-bottom: 200px!important;}
