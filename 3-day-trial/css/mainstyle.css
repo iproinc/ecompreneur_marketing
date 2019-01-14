@@ -78,6 +78,7 @@ footer a:hover{
 
 .btn:hover{
   color: #fff;
+  background-color: #09983b;
 }
 
 .blue{
@@ -155,18 +156,19 @@ cite{
 .discount{
   color: var(--green);
   font-weight: 700;
+  line-height: 1.3;
 }
 
 .discount-bg{
-  border-top: 45px solid #EFF9EB;
+  border-top: 66px solid #EFF9EB;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top-left-radius:10px; 
+  border-top-left-radius:10px;
   border-top-right-radius:10px;
   height: 0;
   width: 60%;
   margin: auto;
-  margin-top: -55px;
+  margin-top: -71px;
 }
 
 .testimonial li{
@@ -253,7 +255,9 @@ cite{
 
 .right .btn{
   padding:10px;
-  font-size: .9em;
+  font-size: 1em;
+  white-space: normal;
+  line-height: 1.3;
 }
 
 .yellow{
@@ -298,31 +302,31 @@ cite{
 }
 
 .tick-text-inline {
-   color: rgb(90, 93, 99) !important; 
+   color: rgb(90, 93, 99) !important;
 }
 
 .tick-label {
-   color: rgb(90, 93, 99) !important; 
+   color: rgb(90, 93, 99) !important;
 }
 
 .tick-flip-panel {
-   color: rgb(73, 144, 226) !important; 
+   color: rgb(73, 144, 226) !important;
 }
 
 .tick-flip {
-   font-family: !important; 
+   font-family: !important;
 }
 
 .tick-flip-panel-text-wrapper {
-   line-height: 1.45 !important; 
+   line-height: 1.45 !important;
 }
 
 .tick-flip-panel {
-   background-color: rgb(255, 255, 255) !important; 
+   background-color: rgb(255, 255, 255) !important;
 }
 
 .tick-flip {
-   border-radius:0.12em !important; 
+   border-radius:0.12em !important;
 }
 
 .tick-flip-panel-back:after{
