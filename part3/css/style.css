@@ -136,8 +136,8 @@ body {
 .arrow{
   background-image:  url(../images/left-arrow.svg), url(../images/right-arrow.svg);
   background-repeat: no-repeat;
-  background-position: 13% 75%, 86% 75%;
-  background-size: 4%, 4%;
+  background-position: 12% 70%, 88% 70%;
+  background-size: 9%, 9%;
 }
 
 /* FOOTER */
@@ -185,13 +185,14 @@ li a:hover {
 
 @media only screen and (min-width:1441px) {
   .arrow{
-    background-position: 22% 75%, 78% 75%
+    background-position: 23% 75%, 77% 75%;
+    background-size: 7%, 7%;
   }
 }
 
 @media only screen and (max-width:991px) {
   .arrow{
-    background-position: 13% 63%, 86% 63%;
+    background-position: 7% 73%, 93% 73%;
   }
 }
 
