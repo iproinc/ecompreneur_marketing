@@ -56,6 +56,10 @@ hr{
   border-top: 1px solid rgba(255,255,255,.15);
 }
 
+button {
+  -webkit-appearance: none;
+}
+
 footer{
   background-image: url(../images/bg-f.svg);
   background-repeat: no-repeat;
@@ -193,28 +197,30 @@ cite{
   padding-bottom: 20px;
 }
 
-.accordion h5:before {
-    float: right !important;
-    background-image: url(../images/minus.svg);
-    content: "";
-    padding-right: 15px;
-    padding-bottom: 15px;
-    color: #4E69A2;
-    font-weight: 900;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.accordion button {
+  width: 100%;
+  text-align: left;
+  background: white;
+  border: 0px;
+  border-radius: 0px;
+  border: none;
+  white-space: unset;
 }
 
-.accordion h5.collapsed:before {
-    float: right !important;
-    background-image: url(../images/plus.svg);
-    content: "";
-    padding-right: 15px;
-    padding-bottom: 15px;
-    color: #4E69A2;
-    font-weight: 900;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.accordion button:before {
+  float: right !important;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 700; 
+  content: "\f068";
+  color: #0C6CD4;
+}
+
+.accordion button.collapsed:before {
+  float: right !important;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 700; 
+  content: "\f067";
+  color: #0C6CD4;
 }
 
 .lg-btn{
@@ -303,7 +309,7 @@ cite{
 .header-container {
   background-color: #F4F9FC;
   color: #183C68;
-  margin-bottom: 55px;
+  margin-bottom: 25px;
 }
 
 .embed-responsive {
@@ -387,6 +393,7 @@ h2{font-size: 1.2rem;}
 h3{font-size: 1.4rem;}
 h4{font-size: 1.2rem;}
 h5{font-size: 1.1rem;}
+button {-webkit-appearance: none;}
 .testimonial img{width: 100px;}
 }
 
@@ -406,6 +413,7 @@ h5{font-size: 1.1rem;}
 @media only screen and (max-width: 454px){
 .subscription-footer p{font-size: 1em;}
 h3{font-size: 1.1rem;}
+button {-webkit-appearance: none;}
 .btn{padding: 10px;font-size: 1em;}
 .features-t img{width: 50px!important;}
 .features-s img{width: 60px!important;}
@@ -423,6 +431,7 @@ h2{font-size: 1rem;}
 h3{font-size: 1.1rem;}
 h4{font-size: 1rem;}
 h5{font-size: 1rem;}
+button {-webkit-appearance: none;}
 .discount-bg{width: 100%;}
 .accordion.my-5{margin-top: 0px!important;}
 .subscription-footer{height: 150px;}
