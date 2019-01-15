@@ -193,28 +193,27 @@ cite{
   padding-bottom: 20px;
 }
 
-.accordion h5:before {
-    float: right !important;
-    background-image: url(../images/minus.svg);
-    content: "";
-    padding-right: 15px;
-    padding-bottom: 15px;
-    color: #4E69A2;
-    font-weight: 900;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.accordion button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 0;
 }
 
-.accordion h5.collapsed:before {
-    float: right !important;
-    background-image: url(../images/plus.svg);
-    content: "";
-    padding-right: 15px;
-    padding-bottom: 15px;
-    color: #4E69A2;
-    font-weight: 900;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.accordion button:before {
+  float: right !important;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 700; 
+  content: "\f068";
+  color: #0C6CD4;
+}
+
+.accordion button.collapsed:before {
+  float: right !important;
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 700; 
+  content: "\f067";
+  color: #0C6CD4;
 }
 
 .lg-btn{
