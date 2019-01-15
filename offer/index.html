@@ -12,7 +12,9 @@
     <link href="../offer/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="../offer/flip/flip.min.css" rel="stylesheet">
     <link href="../offer/css/mainstyle.css" rel="stylesheet" >
-
+    <link rel="stylesheet" type="text/css" media="screen" href="../offer/css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="../offer/js/popup.js"></script>
     <title>eCompreneur - Join eCompreneur For Just $49 USD / Month</title>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -753,22 +755,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
-        </div>
-        <div class="modal-body">
-          <p>Some text in the modal.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <section class="pop-up-container">
+      <div class="pop-up-header">
+        <img src="../offer/images/SVGLight.svg" alt="eCompreneur Logo">
+      </div>
+      <div class="pop-up-body">
+        <div class="left-img-container"></div>
+        <div class="right-input-container">
+          <h3>Enter Please Enter Your Email Below To See If You Qualify For Our Special eCompreneur Offer! Email</h3>
+          <input type="text" placeholder="Email">
+          <p>Disclaimer: Your information will be 100% secured.</p>
+          <div class="cta-container">
+            <button class="cta-btn" onclick="location.href = 'https://1.ecompneur.pay.clickbank.net/?cbskin=23892&cbfid=36916';" type="submit">Join eCompreneur Now <i class="fas fa-chevron-right"></i></button>
+            <a class="nty-btn" href="https://ecompreneur.net/offer">No Thank You</a>
+          </div>
         </div>
       </div>
-      
-    </div>
+    </section>
   </div>
+
+  <script>
+    var modal = document.getElementById('myModal');
+
+  </script>
 </html>
