@@ -73,7 +73,7 @@ footer a:hover{
   border-radius: 0;
   border:1px solid #fff;
   font-weight: 700;
-  font-size: 1.3em;
+  font-size: 1.8em;
 }
 
 .btn:hover{
@@ -349,7 +349,8 @@ cite{
 
 @media only screen and (max-width:991px) {
 h1{font-size: 2rem;}
-header{padding-bottom: 40px;}
+header .py-5{padding-bottom: 20px!important;}
+main .pt-5{padding-top: 10px!important;}
 .featured{padding-top: 20px!important;padding-bottom: 20px!important;}
 .right{display: none;}
 .mobile{display: block;}
@@ -357,6 +358,7 @@ header{padding-bottom: 40px;}
 .subscription-footer .btn{font-size: 1.2em;}
 .subscription-footer {background: #131e3a; bottom: 0; display: block; height: 180px; left: 0; padding: 15px 10px 50px; position: fixed; width: 100%; z-index: 100; color: #fff; text-align: center;}
 footer.pb-5{padding-bottom: 200px!important;}
+
 }
 
 @media only screen and (max-width:767px) {
