@@ -200,10 +200,11 @@ cite{
 .accordion button {
   width: 100%;
   text-align: left;
-  background: none;
-  border: 0;
-  -webkit-appearance: none;
-  border-radius: 0;
+  background: white;
+  border: 0px;
+  border-radius: 0px;
+  border: none;
+  white-space: unset;
 }
 
 .accordion button:before {
