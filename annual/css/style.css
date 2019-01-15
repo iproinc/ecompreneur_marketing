@@ -36,14 +36,6 @@ body {
   white-space: normal;
 }
 
-.embed-responsive {
-  margin:0 auto;
-}
-
-.embed-responsive-16by9::before {
-  padding-top: 0 !important;
-}
-
 div a.btn-success {
   font-size: 26px;
 }
