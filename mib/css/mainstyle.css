@@ -56,6 +56,10 @@ hr{
   border-top: 1px solid rgba(255,255,255,.15);
 }
 
+button {
+  -webkit-appearance: none;
+}
+
 footer{
   background-image: url(../images/bg-f.svg);
   background-repeat: no-repeat;
@@ -388,6 +392,7 @@ h2{font-size: 1.2rem;}
 h3{font-size: 1.4rem;}
 h4{font-size: 1.2rem;}
 h5{font-size: 1.1rem;}
+button {-webkit-appearance: none;}
 .testimonial img{width: 100px;}
 }
 
@@ -407,6 +412,7 @@ h5{font-size: 1.1rem;}
 @media only screen and (max-width: 454px){
 .subscription-footer p{font-size: 1em;}
 h3{font-size: 1.1rem;}
+button {-webkit-appearance: none;}
 .btn{padding: 10px;font-size: 1em;}
 .features-t img{width: 50px!important;}
 .features-s img{width: 60px!important;}
@@ -424,6 +430,7 @@ h2{font-size: 1rem;}
 h3{font-size: 1.1rem;}
 h4{font-size: 1rem;}
 h5{font-size: 1rem;}
+button {-webkit-appearance: none;}
 .discount-bg{width: 100%;}
 .accordion.my-5{margin-top: 0px!important;}
 .subscription-footer{height: 150px;}
