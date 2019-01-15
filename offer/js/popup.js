@@ -12,7 +12,7 @@ function check_account(email){
 // go to ep app to check account
 function check_account_ajax(email, callback){
   $.ajax({
-    url: 'https://3775be74.ngrok.io/check_recurly_account',
+    url: 'https://www.ecompreneur.net/check_recurly_account',
     type: "POST",
     data: {
       email: email
