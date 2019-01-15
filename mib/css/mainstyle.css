@@ -360,6 +360,7 @@ cite{
 
 @media only screen and (max-width:991px) {
 h1{font-size: 2rem;}
+.right-cta{display: none;}
 .featured{padding-top: 20px!important;padding-bottom: 20px!important;}
 .right{display: none;}
 .mobile{display: block;}
