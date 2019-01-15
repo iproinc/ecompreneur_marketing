@@ -29,7 +29,7 @@ body {
 .main {
   background-color: #fcfdff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23f7fafe' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23f3f7fd' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23f0f4fc' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23edf2f9' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23ebeff6' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23eaedf2' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23e9ebee' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   background-size: cover;
   background-position: center;
 }
@@ -133,6 +133,13 @@ body {
   display: none;
 }
 
+.arrow{
+  background-image:  url(../images/left-arrow.svg), url(../images/right-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 12% 70%, 88% 70%;
+  background-size: 9%, 9%;
+}
+
 /* FOOTER */
 .footer {
   font-size: 14px;
@@ -176,6 +183,19 @@ li a:hover {
 }
 /* END FOOTER */
 
+@media only screen and (min-width:1441px) {
+  .arrow{
+    background-position: 23% 75%, 77% 75%;
+    background-size: 7%, 7%;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .arrow{
+    background-position: 7% 73%, 93% 73%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .video {
     margin-bottom: 25px;
@@ -205,18 +225,18 @@ li a:hover {
     text-align: center;
     z-index: 9;
   }
-  
+
   .video .container {
     max-width: 100%;
-  } 
+  }
 
   h1 {
     font-size: 2rem;
-  } 
+  }
 
   h2 {
     font-size: 1.5rem;
-  } 
+  }
 
   .embed-responsive.w-75, form.w-75, .cta.w-75 {
     width: 100%!important;
@@ -225,24 +245,27 @@ li a:hover {
   .desktop {
     display: none;
   }
+  .arrow{
+    background-image: none;
+  }
 }
 
 @media only screen and (max-width: 550px) {
   .footer {
     padding: 0 20px;
-  } 
+  }
 
   .video .py-5, .main .py-5 {
     padding-top: 20px!important; padding-bottom: 20px!important;
-  } 
+  }
 
   h1 {
     font-size: 1.5rem;
-  } 
+  }
 
   h2 {
     font-size: 1.2rem;
-  } 
+  }
 
   .mobile {
     display: block;
@@ -252,7 +275,7 @@ li a:hover {
 @media only screen and (max-width: 480px) {
   #cbBadge {
     display: block !important;
-  } 
+  }
 
   .progress {
     height: 50px;
@@ -261,7 +284,7 @@ li a:hover {
   .cta {
     font-size: 20px;
   }
-  
+
   .cta-form {
     padding: 20px;
   }
