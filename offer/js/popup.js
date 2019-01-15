@@ -3,8 +3,17 @@ function check_account(email){
     if (response.msg == "error"){
       console.log("error -    - ");
     }  else if (response.msg == "ok") {
-      console.log(tiny+ "tiny");
-      console.log(shop+ "shop");
+      console.log(response.tiny+ "tiny");
+      console.log(response.shop+ "shop");
+      if (response.tiny && response.shop) {
+        window.location = "https://www.example.com";
+      } else if (response.tiny) {
+
+      } else if (response.shop) {
+        
+      } else {
+
+      }
     }
   });
 }
@@ -33,8 +42,3 @@ function check_account_ajax(email, callback){
 };
 
 
-
-// msg: "ok",
-// tiny: tiny,
-// shop: shop
-// }
