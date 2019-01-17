@@ -34,7 +34,7 @@
                   <p class="m-0 p-1 text-light font-weight-bold desktop">Part 1</p>
                 </div>
                 <div class="video-container">
-                  <img src="../part2/images/video1.png" class="img-fluid" alt="video1">
+                  <img src="../part2/images/video1.png" class="img-fluid" alt="video1" id="divId1">
                   <div class="video-tag-active">
                     <p class="m-0 p-1 text-light font-weight-bold mobile">Part 1</p>
                   </div>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="video-container">
                   <div class="video-container">
-                    <img src="../part2/images/video2.png" class="img-fluid" alt="video2">
+                    <img src="../part2/images/video2.png" class="img-fluid" alt="video2" id="divId2">
                     <div class="video-tag-active">
                       <p class="m-0 p-1 text-light font-weight-bold mobile">Part 2</p>
                     </div>
@@ -72,12 +72,23 @@
         </div>
         <div class="container text-center py-3">
           <a href="#get" class="text-success text-center mb-3 mobile"><strong><u>GET NOTIFICATION!</u></strong></a>
-          <h3>The 3 Core Pills To eCommerce Success</h3>
-          <h1 class="title-blue pb-2">
-            Step-By-Step Tutorial On How To Run A Successful Facebook Campaign For eCommerce Sales
-          </h1>
-          <div class="embed-responsive w-75 mx-auto mb-4">
-            <script src="https://fast.wistia.com/embed/medias/xkne8pg934.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_xkne8pg934 seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/xkne8pg934/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+          <div id="ep1" style="display:none;">
+            <h3>The 3 Core Pills To eCommerce Success</h3>
+            <h1 class="title-blue pb-2">
+              How To Build A Highly-Profitable “Automated Niche Store” From Scratch
+            </h1>
+            <div class="embed-responsive embed-responsive-16by9 w-75 mx-auto mb-4">
+              <iframe src="https://player.vimeo.com/video/310900236" class="embed-responsive-item" frameborder="0" allow="fullscreen"></iframe>
+            </div>
+          </div>
+          <div id="ep2">
+            <h3>The 3 Core Pills To eCommerce Success</h3>
+            <h1 class="title-blue pb-2">
+              Step-By-Step Tutorial On How To Run A Successful Facebook Campaign For eCommerce Sales
+            </h1>
+            <div class="embed-responsive w-75 mx-auto mb-4">
+              <script src="https://fast.wistia.com/embed/medias/xkne8pg934.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_xkne8pg934 seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/xkne8pg934/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+            </div>
           </div>
           <form class="mx-auto cta-form mb-4" id="get" action="https://zeroup3.sendlane.com/form/24707" method="post">
             <h4 class="text-dark my-4"><strong>Sign Up For Early Bird Discount To eCompreneur & Get Notified For Our Next Video Release</strong></h4>
@@ -131,6 +142,17 @@
                   behavior: 'smooth'
               });
           });
+      });
+      $("#divId1").on('click',function(){
+
+         $('#ep2').hide();
+         $('#ep1').show();
+      });
+
+      $("#divId2").on('click',function(){
+
+         $('#ep1').hide();
+         $('#ep2').show();
       });
     </script>
   </body>

@@ -73,12 +73,11 @@ footer a:hover{
   border-radius: 0;
   border:1px solid #fff;
   font-weight: 700;
-  font-size: 1.8em;
+  font-size: 1.3em;
 }
 
 .btn:hover{
   color: #fff;
-  background-color: #09983b;
 }
 
 .blue{
@@ -156,11 +155,10 @@ cite{
 .discount{
   color: var(--green);
   font-weight: 700;
-  line-height: 1.3;
 }
 
 .discount-bg{
-  border-top: 49px solid #EFF9EB;
+  border-top: 45px solid #EFF9EB;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top-left-radius:10px;
@@ -168,7 +166,7 @@ cite{
   height: 0;
   width: 60%;
   margin: auto;
-  margin-top: -64px;
+  margin-top: -55px;
 }
 
 .testimonial li{
@@ -198,10 +196,6 @@ cite{
   white-space: unset;
 }
 
-.accordion button:focus {
-  outline: none;
-}
-
 .accordion button:before {
   float: right !important;
   font-family: "Font Awesome 5 Free";
@@ -217,7 +211,6 @@ cite{
   content: "\f067";
   color: #0C6CD4;
 }
-
 
 .lg-btn{
     font-size: 1.1em;
@@ -262,9 +255,7 @@ cite{
 
 .right .btn{
   padding:10px;
-  font-size: 1em;
-  white-space: normal;
-  line-height: 1.3;
+  font-size: .9em;
 }
 
 .yellow{
@@ -356,16 +347,14 @@ cite{
 
 @media only screen and (max-width:991px) {
 h1{font-size: 2rem;}
-header .py-5{padding-bottom: 20px!important;}
-main .pt-5{padding-top: 10px!important;}
+header{padding-bottom: 40px;}
 .featured{padding-top: 20px!important;padding-bottom: 20px!important;}
 .right{display: none;}
 .mobile{display: block;}
-.subscription-footer p{font-size: 1.3em; font-weight: 700;}
+.subscription-footer p{font-size: 1.3em; font-weight: 900;}
 .subscription-footer .btn{font-size: 1.2em;}
 .subscription-footer {background: #131e3a; bottom: 0; display: block; height: 180px; left: 0; padding: 15px 10px 50px; position: fixed; width: 100%; z-index: 100; color: #fff; text-align: center;}
 footer.pb-5{padding-bottom: 200px!important;}
-
 }
 
 @media only screen and (max-width:767px) {
