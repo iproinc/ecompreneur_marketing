@@ -289,6 +289,9 @@ cite{
   color: #0C6CD4;
 }
 
+.member{
+  font-size: 18px;
+}
 
 /*right-side*/
 
@@ -453,11 +456,12 @@ header{padding-bottom: 0px;}
 .mobile{display: block;}
 .subscription-footer p{font-size: 1.3em; font-weight: 900;}
 .subscription-footer .btn{font-size: 1.2em;}
-.subscription-footer {background: #131e3a; bottom: 0; display: block; height: 180px; left: 0; padding: 15px 10px 50px; position: fixed; width: 100%; z-index: 100; color: #fff; text-align: center;}
-footer.pb-5{padding-bottom: 200px!important;}
+.subscription-footer {background: #131e3a; bottom: 0; display: block; height: 225px; left: 0; padding: 15px 10px 50px; position: fixed; width: 100%; z-index: 100; color: #fff; text-align: center;}
+footer.pb-5{padding-bottom: 260px!important;}
 .tick {max-width: 72vw;}
 .tick.mb-5 {margin-bottom: 20px!important;}
 .tick-flip, .tick-text-inline {font-size: 3.5em;}
+.member{font-size: 16px;}
 }
 
 @media only screen and (max-width:767px) {
@@ -510,8 +514,8 @@ h5{font-size: 1rem;}
 .discount-bg{width: 100%;}
 .accordion.my-5{margin-top: 0px!important;}
 header {padding-bottom: 20px;}
-.subscription-footer{height: 150px;}
-footer.pb-5{padding-bottom: 150px!important; }
+.subscription-footer{height: 230px;}
+footer.pb-5{padding-bottom: 240px!important; }
 .darkblue{font-size: 12px;}
 .main{padding: 0;}
 .yellow-section.p-4, .section-title.p-4{padding:20px 10px!important;}
@@ -523,6 +527,9 @@ footer.pb-5{padding-bottom: 150px!important; }
 @media only screen and (max-width: 375px){
 .discount{font-size: 15px;}
 .subscription-footer .btn {padding: 10px;}
+.member{font-size: 12px;}
+.subscription-footer {height: 200px;}
+footer.pb-5 {padding-bottom: 215px!important;}
 }
 
 @media only screen and (max-width: 320px){
