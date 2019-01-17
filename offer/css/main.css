@@ -4,13 +4,6 @@ body {
 
 .pop-up-container {
   max-width: 750px;
-  width: 90%;
-  min-height: 460px;
-  border-radius: 4px;
-  background: #fff;
-  box-shadow: 0px 4px 18px rgba(0,0,0,0.18);
-  margin: 0 auto;
-  margin-bottom: 50px;
 }
 
 .pop-up-header {
@@ -118,6 +111,11 @@ body {
 
 .nty-btn {
   color: #7E7E7E;
+  background:none!important;
+  border:none; 
+  padding:0!important;
+  font: inherit;
+  cursor: pointer;
 }
 
 .top-header-container {
@@ -145,7 +143,7 @@ body {
 }
 
 .price {
-  background-image: url(../pop-up-code/assets/Oval.svg);
+  background-image: url("../images/Oval.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   padding: 25px 0;
@@ -195,4 +193,8 @@ body {
   .right-input-container {
     padding: 0;
   }
+}
+
+.join-btn {
+  width: 100%;
 }
