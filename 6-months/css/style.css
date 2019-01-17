@@ -36,14 +36,6 @@ body {
   white-space: normal;
 }
 
-.embed-responsive {
-  margin:0 auto;
-}
-
-.embed-responsive-16by9::before {
-  padding-top: 0 !important;
-}
-
 div a.btn-success {
   font-size: 26px;
 }
@@ -217,5 +209,12 @@ li a:hover {
   }
   .top-bar p{
     font-size: 18px;
+  }
+  .container.text-center.py-5{
+    padding-top: 20px!important;
+  }
+  .left-content.p-4{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important
   }
 }

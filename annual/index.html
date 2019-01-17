@@ -38,7 +38,7 @@
           </div>
           <div class="col-md-6">
             <div class="progress">
-              <div class="progress-bar bg-success progress-bar-striped" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
             </div>
           </div>
         </div>
@@ -52,8 +52,9 @@
         </div>
         <div class="m-3 py-3">
           <div class="mb-4">
-            <h3 class="text-danger"><strong>Join eCompreneur Now For $449 / Year</strong></h3>
-            <a href="https://2.ecompneur.pay.clickbank.net/?cbskin=23892&cbur=a" class="p-3 font-weight-bold text-light btn btn-success cta">
+            <h3 class="text-danger mb-0"><strong>Join eCompreneur Now For $449 USD / Year</strong></h3>
+            <p style="line-height:1.1; font-size:18px;"><small>You will be billed $449 USD today and each yearly subscription renewal.</small></p>
+            <a href="https://2.ecompneur.pay.clickbank.net/?cbskin=23892&cbur=a&cbrblaccpt=true" class="p-3 font-weight-bold text-light btn btn-success cta">
               Yes, I Want To Upgrade My eCompreneur Membership & Save Money
             </a>
           </div>
@@ -65,8 +66,9 @@
           <div class="d-flex my-4 justify-content-center primary-content">
             <div class="right-content">
               <img src="../annual/images/noshadow-box-sale.png" alt="ep box">
-              <p class="mb-0 mt-4"><small>WAS: <span class="strikethrough">$588 / Year</span></small></p>
-              <p><strong>NOW: $449 / Year</strong></p>
+              <p class="mb-0 mt-4"><small>WAS: <span class="strikethrough">$588 USD / Year</span></small></p>
+              <p class="mb-0 text-danger"><strong>NOW: $449 USD / Year</strong></p>
+              <p style="line-height:1.1; font-size:18px;"><small>You will be billed $449 USD today<br>and each yearly subscription renewal.</small></p>
             </div>
             <div class="left-content p-4">
               <div class="justify-content-between">
@@ -117,7 +119,7 @@
             </div>
           </div>
           <div class="my-4">
-            <a href="https://2.ecompneur.pay.clickbank.net/?cbskin=23892&cbur=a" class="p-3 font-weight-bold text-light btn btn-success cta">
+            <a href="https://2.ecompneur.pay.clickbank.net/?cbskin=23892&cbur=a&cbrblaccpt=true" class="p-3 font-weight-bold text-light btn btn-success cta">
               Yes, I Want To Upgrade My eCompreneur Membership & Save Money
             </a>
           </div>
@@ -167,5 +169,23 @@
   <script src="../annual/js/bootstrap.bundle.min.js"></script>
   <script src="../annual/js/bootstrap.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    function acceptCheck() {
+        var agreeCheckbox = document.getElementById("agreeCheckbox");
+        if(agreeCheckbox.checked) {
+            return true;
+        } else {
+            mustAccept();
+            return false;
+        }
+    }
+
+    function mustAccept() {
+        window.alert("By clicking accept, you agree to the payment terms of this recurring product.");
+    }
+
+    var acceptLink = document.getElementById("accept");
+    acceptLink.onclick = acceptCheck;
+  </script>
   </body>
 </html>
