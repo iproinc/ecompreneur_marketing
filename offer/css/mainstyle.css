@@ -522,6 +522,7 @@ footer.pb-5{padding-bottom: 150px!important; }
 
 @media only screen and (max-width: 375px){
 .discount{font-size: 15px;}
+.subscription-footer .btn {padding: 10px;}
 }
 
 @media only screen and (max-width: 320px){
