@@ -1,4 +1,5 @@
 function check_account(email){
+
   check_account_ajax(email, ( response ) => {
     if (response.msg == "error"){
       console.log("error -    - ");
@@ -6,13 +7,13 @@ function check_account(email){
       console.log(response.tiny+ "tiny");
       console.log(response.shop+ "shop");
       if (response.tiny && response.shop) {
-        window.location = "https://www.example.com";
+        jQuery('#shop-tiny-modal').modal('show');
       } else if (response.tiny) {
-
+        jQuery('#tiny-modal').modal('show');
       } else if (response.shop) {
-        
+        jQuery('#shop-modal').modal('show');
       } else {
-
+        jQuery('#regular-modal').modal('show');
       }
     }
   });
@@ -40,5 +41,10 @@ function check_account_ajax(email, callback){
     }
   });
 };
+
+function close() {
+  console.log("test");
+  $('#myModal').modal('close');
+}
 
 

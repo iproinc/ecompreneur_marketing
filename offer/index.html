@@ -7,13 +7,20 @@
     <link rel="apple-touch-icon" sizes="256x256" href="../offer/images/webclip.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../offer/images/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../offer/js/jquery-3.3.1.min.js"></script>
+    <script src="../offer/js/bootstrap.bundle.min.js"></script>
+    <script src="../offer/js/bootstrap.min.js"></script>
     <link href="../offer/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
     <link href="../offer/css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
     <link href="../offer/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="../offer/flip/flip.min.js"></script>
     <link href="../offer/flip/flip.min.css" rel="stylesheet">
     <link href="../offer/css/mainstyle.css" rel="stylesheet" >
     <link rel="stylesheet" type="text/css" media="screen" href="../offer/css/main.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="../offer/js/popup.js"></script>
     <title>eCompreneur - Join eCompreneur For Just $49 USD / Month</title>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -824,7 +831,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p class="mt-3">Disclaimer: Results may not be typical nor expected for every person. We do not make any guarantees with our course. Please note that all your results are based on your effort and dedication to what is taught in our course. We are not affiliated with Facebook™ in any way. All information provided on this website is based on best practices and for educational-purposes only.</p>
           <hr>
           <div class="disclaimer mb-3">
-          <p>ClickBank is the retailer of products on this site. CLICKBANK® is a registered trademark of Click Sales Inc., a Delaware corporation located at 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709, USA and used by permission. ClickBank’s role as retailer does not constitute an endorsement, approval or review of these products or any claim, statement or opinion used in promotion of these products.</p>
+            <p>ClickBank is the retailer of products on this site. CLICKBANK® is a registered trademark of Click Sales Inc., a Delaware corporation located at 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709, USA and used by permission. ClickBank’s role as retailer does not constitute an endorsement, approval or review of these products or any claim, statement or opinion used in promotion of these products.</p>
           </div>
 <!-- disclaimer  -->
         </div>
@@ -835,12 +842,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-     <script src="../offer/js/bootstrap.bundle.min.js"></script>
-  	 <script src="../offer/js/bootstrap.min.js"></script>
-     <script src="../offer/flip/flip.min.js"></script>
+
 
      <script>
       window.onscroll = function() {myFunction()};
@@ -856,32 +858,187 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         }
       }
     </script>
+
   </body>
 
   <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <section class="pop-up-container">
-      <div class="pop-up-header">
-        <img src="../offer/images/SVGLight.svg" alt="eCompreneur Logo">
-      </div>
-      <div class="pop-up-body">
-        <div class="left-img-container"></div>
-        <div class="right-input-container">
-          <h3>Enter Please Enter Your Email Below To See If You Qualify For Our Special eCompreneur Offer! Email</h3>
-          <input type="text" placeholder="Email">
-          <p>Disclaimer: Your information will be 100% secured.</p>
-          <div class="cta-container">
-            <button class="cta-btn" onclick="location.href = 'https://1.ecompneur.pay.clickbank.net/?cbskin=23892&cbfid=36916';" type="submit">Join eCompreneur Now <i class="fas fa-chevron-right"></i></button>
-            <a class="nty-btn" href="https://ecompreneur.net/offer">No Thank You</a>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog pop-up-container modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="pop-up-header modal-header">
+          <img src="../offer/images/SVGLight.svg" alt="eCompreneur Logo">
+        </div>
+        <div class="pop-up-body modal-body">
+          <div class="left-img-container"></div>
+          <div class="right-input-container">
+            <h3>Enter Please Enter Your Email Below To See If You Qualify For Our Special eCompreneur Offer! Email</h3>
+            <input type="text" id="modal" placeholder="Email">
+            <p>Disclaimer: Your information will be 100% secured.</p>
+            <div class="cta-container">
+              <button class="cta-btn" onclick="check_account()" type="submit">Join eCompreneur Now <i class="fas fa-chevron-right"></i></button>
+              <button type="button" class="nty-btn" data-dismiss="modal">No Thank You</button>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </div>
-  <script src="../offer/js/jquery-3.3.1.min.js"></script>
-  <script src="../offer/js/popup.js"></script>
-  <script>
-    var modal = document.getElementById('myModal');
 
-  </script>
+  <div class="modal fade" id="shop-tiny-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog pop-up-container modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="pop-up-header modal-header">
+          <img src="../offer/images/SVGLight.svg" alt="eCompreneur Logo">
+        </div>
+        <div class="pop-up-body modal-body">
+          <div class="top-header-container">
+            <h3>Congratulations! You’re Qualified For Our Special eCompreneur Offer!</h3>
+            <h4>As A Valued Shopzie And Tiny Member, You Can Save $30 Per Month To Access eCompreneur.</h4>
+          </div>
+          <div class="left-text-container">
+            <p>
+              Join eCompreneur Today & Get Access To: <br>
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To Shopzie <span class="text-info font-weight-bold">(Discounted)</span> <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To Tiny.ie <span class="text-info font-weight-bold">(Discounted)</span> <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To eCompreneur’s Private FB Community <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>24 Sessions of Open Office Hours - Guaranteed <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>50% Off Marketers In Black Tickets <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Your Chance To Win Our eCompreneur Challenge To Shopify HQ</li>
+              </ul>
+            </p>
+          </div>
+          <div class="right-price-container">
+            <div class="price">
+              <p class="price-before">$49 USD/month</p>
+              <p class="price-discount">$19<span>USD/month</span></p>
+            </div>
+            <div class="cta-container">
+              <button class="cta-btn" type="submit">Join eCompreneur Now <i class="fas fa-chevron-right"></i></button>
+              <button type="button" class="nty-btn" data-dismiss="modal">No Thank You</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="modal fade" id="tiny-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog pop-up-container modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="pop-up-header modal-header">
+          <img src="../offer/images/SVGLight.svg" alt="eCompreneur Logo">
+        </div>
+        <div class="pop-up-body modal-body">
+          <div class="top-header-container">
+            <h3>Congratulations! You’re Qualified For Our Special eCompreneur Offer!</h3>
+            <h4>As A Valued Tiny Member, You Can Save $19 Per Month To Access eCompreneur.</h4>
+          </div>
+          <div class="left-text-container">
+            <p>
+              Join eCompreneur Today & Get Access To: <br>
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To Shopzie <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To Tiny.ie <span class="text-info font-weight-bold">(Discounted)</span> <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To eCompreneur’s Private FB Community <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>24 Sessions of Open Office Hours - Guaranteed <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>50% Off Marketers In Black Tickets <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Your Chance To Win Our eCompreneur Challenge To Shopify HQ</li>
+              </ul>
+            </p>
+          </div>
+          <div class="right-price-container">
+            <div class="price">
+              <p class="price-before">$49 USD/month</p>
+              <p class="price-discount">$30<span>USD/month</span></p>
+            </div>
+            <div class="cta-container">
+              <button class="cta-btn" type="submit">Join eCompreneur Now <i class="fas fa-chevron-right"></i></button>
+              <button type="button" class="nty-btn" data-dismiss="modal">No Thank You</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="shop-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog pop-up-container modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="pop-up-header modal-header">
+          <img src="../offer/images/SVGLight.svg" alt="eCompreneur Logo">
+        </div>
+        <div class="pop-up-body modal-body">
+          <div class="top-header-container">
+            <h3>Congratulations! You’re Qualified For Our Special eCompreneur Offer!</h3>
+            <h4>As A Valued Shopzie Member, You Can Save $19 Per Month To Access eCompreneur.</h4>
+          </div>
+          <div class="left-text-container">
+            <p>
+              Join eCompreneur Today & Get Access To: <br>
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To Shopzie <span class="text-info font-weight-bold">(Discounted)</span> <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To Tiny.ie <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To eCompreneur’s Private FB Community <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>24 Sessions of Open Office Hours - Guaranteed <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>50% Off Marketers In Black Tickets <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Your Chance To Win Our eCompreneur Challenge To Shopify HQ</li>
+              </ul>
+            </p>
+          </div>
+          <div class="right-price-container">
+            <div class="price">
+              <p class="price-before">$49 USD/month</p>
+              <p class="price-discount">$30<span>USD/month</span></p>
+            </div>
+            <div class="cta-container">
+              <button class="cta-btn" type="submit">Join eCompreneur Now <i class="fas fa-chevron-right"></i></button>
+              <button type="button" class="nty-btn" data-dismiss="modal">No Thank You</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="regular-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog pop-up-container modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="pop-up-header modal-header">
+          <img src="../offer/images/SVGLight.svg" alt="eCompreneur Logo">
+        </div>
+        <div class="pop-up-body modal-body">
+          <div class="top-header-container">
+            <h3>Awww…It Looks Like You’re Not Qualified For Our Special eCompreneur!</h3>
+            <h4>Only Tiny And Shopzie Members Are Qualified For Our Special Offer. If You Believed This Is An Mistake, Please Contact Our <a href="mailto:support@ecompreneur.net" target="_blank">Support</a> For Further Assistance. </h4>
+          </div>
+          <div class="left-text-container">
+            <p>
+              Join eCompreneur Today & Get Access To: <br>
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To Shopzie<br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To Tiny.ie<br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Access To eCompreneur’s Private FB Community <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>24 Sessions of Open Office Hours - Guaranteed <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>50% Off Marketers In Black Tickets <br></li>
+                <li><span class="fa-li"><i class="fas fa-check text-primary mr-2"></i></span></i>Your Chance To Win Our eCompreneur Challenge To Shopify HQ</li>
+              </ul>
+            </p>
+          </div>
+          <div class="right-price-container">
+            <div class="price">
+              <p class="price-text">All That For Only</p>
+              <p class="price-discount">$49<span>USD/month</span></p>
+            </div>
+            <div class="cta-container">
+              <button class="cta-btn" type="submit">Join eCompreneur Now <i class="fas fa-chevron-right"></i></button>
+              <button type="button" class="nty-btn" data-dismiss="modal">No Thank You</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </html>
