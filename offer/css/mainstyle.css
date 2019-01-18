@@ -360,7 +360,7 @@ cite{
   color: #FFFF3A;
 }
 
-.mobile {
+.mobile{
   display: none;
 }
 
@@ -453,7 +453,6 @@ header{padding-bottom: 0px;}
 .main{padding:0 10px 10px;}
 .featured{padding-top: 20px!important;padding-bottom: 20px!important;}
 .right{display: none;}
-.mobile{display: block;}
 .subscription-footer p{font-size: 1.3em; font-weight: 900;}
 .subscription-footer .btn{font-size: 1.2em;}
 .subscription-footer {background: #131e3a; bottom: 0; display: block; height: 225px; left: 0; padding: 15px 10px 50px; position: fixed; width: 100%; z-index: 100; color: #fff; text-align: center;}
@@ -472,6 +471,8 @@ footer.pb-5{padding-bottom: 260px!important;}
 .btn{font-size: 1.1em; padding: 10px 40px;}
 .lg-btn{padding: 10px; font-size: 20px;}
 .discount{font-size: 18px;}
+.mobile{display: block;}
+.hide{display: none;}
 }
 
 @media only screen and (max-width: 675px){
