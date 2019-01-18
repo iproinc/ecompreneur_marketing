@@ -1,5 +1,6 @@
-function check_account(email){
-
+function check_account(){
+  let email = $("#modal")[0].value;
+  console.log(email);
   check_account_ajax(email, ( response ) => {
     if (response.msg == "error"){
       console.log("error -    - ");
@@ -23,6 +24,8 @@ function check_account(email){
 function check_account_ajax(email, callback){
   $.ajax({
     url: 'https://www.ecompreneur.net/check_recurly_account',
+    url: 'https://www.ecompreneur.net/check_recurly_account',
+    
     type: "POST",
     data: {
       email: email
