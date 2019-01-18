@@ -1,5 +1,6 @@
-function check_account(email){
-
+function check_account(){
+  let email = $("#modal")[0].value;
+  console.log(email);
   check_account_ajax(email, ( response ) => {
     if (response.msg == "error"){
       console.log("error -    - ");
