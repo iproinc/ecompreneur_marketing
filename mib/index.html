@@ -13,7 +13,10 @@
     <link href="../mib/flip/flip.min.css" rel="stylesheet">
     <link href="../mib/css/mainstyle.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="../mib/js/bootstrap.bundle.min.js"></script>
+  	 <script src="../mib/js/bootstrap.min.js"></script>
+     <script src="../mib/flip/flip.min.js"></script>
     <title>eCompreneur - Join Marketers In Black</title>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -24,6 +27,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <!-- ClickBank Trust Badge -->
 <script src="//cbtb.clickbank.net/?vendor=ecompneur"></script>
+<script>
+  $(function() {
+      //caches a jQuery object containing the header element
+      var header = $(".video-floating");
+      $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 750) {
+              header.addClass("fixedbanner");
+          }
+          if (scroll <= 750) {
+              header.removeClass("fixedbanner");
+          }
+      });
+  });
+
+</script>
   </head>
   <body>
 <!-- Google Tag Manager (noscript) -->
@@ -63,9 +83,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="header-container pt-5 pb-3">
           <div class="container text-center">
-            <h1>Get 50% Off To Marketers In Black! A 3-Day, Closed-Room Live Event To Learn From 7-Figure Entrepreneurs To Scale Your Business</h1>
-            <div class="embed-responsive embed-responsive-16by9 mx-auto w-100">
-              <iframe src="https://player.vimeo.com/video/311337457" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <div class="video-floating">
+              <h1>Get 50% Off To Marketers In Black! A 3-Day, Closed-Room Live Event To Learn From 7-Figure Entrepreneurs To Scale Your Business</h1>
+              <div class="right" style="display:none;">
+                <span class="badge badge-pill badge-warning announce-pill mb-4">Just Announced</span>
+                <h2>Get 50% Off To Marketers In Black! A 3-Day, Closed-Room Live Event To Learn From 7-Figure Entrepreneurs To Scale Your Business</h2>
+              </div>
+              <div class="embed-responsive embed-responsive-16by9 mx-auto w-100">
+                <iframe src="https://player.vimeo.com/video/311337457?autoplay=1&loop=1&autopause=0&?muted=1" frameborder="0"  allow="autoplay; fullscreen"></iframe>
+              </div>
+              <div class="right" style="display:none;">
+                <div class="highlight-text">
+                <p>
+                <img src="../mib/images/arrow-left.svg" alt="left arrow">
+                Very Limited Seats
+                <img src="../mib/images/arrow-right.svg" alt="right arrow"> <br>
+                Join Me On July 18th, 19th & 20th
+                </p>
+                </div>
+                <div class="highlight-price">
+                  <p><span class="price-1">Public Ticket Price: $397</span><br><span class="price-2">Today Only: $197</span></p>
+                </div>
+                <a href="http://7.ecompneur.pay.clickbank.net/?cbskin=23892&cbur=a" class="btn btn-success btn-lg cta mb-2" role="button" aria-pressed="true">Yes, I Want To Grab My Ticket For 50% Off Now</a>
+                <p><u><a href="http://7.ecompneur.pay.clickbank.net/?cbskin=23892&cbur=d">No, thank you. I don’t want to come.</a></u></p>
+              </div>
             </div>
             <div class="highlight-text">
               <p>
@@ -86,27 +127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 order-lg-2 mb-4 text-center right-cta" id="col-right">
-              <div class="right">
-                <span class="badge badge-pill badge-warning announce-pill mb-4">Just Announced</span>
-                <h2>Get 50% Off To Marketers In Black! A 3-Day, Closed-Room Live Event To Learn From 7-Figure Entrepreneurs To Scale Your Business</h2>
-                <div class="embed-responsive embed-responsive-16by9 mx-auto">
-                    <iframe src="https://player.vimeo.com/video/311337457" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                  </div>
-                  <div class="highlight-text">
-                    <p>
-                      <img src="../mib/images/arrow-left.svg" alt="left arrow">
-                        Very Limited Seats
-                       <img src="../mib/images/arrow-right.svg" alt="right arrow"> <br>
-                      Join Me On July 18th, 19th & 20th
-                    </p>
-                  </div>
-                  <div class="highlight-price">
-                    <p><span class="price-1">Public Ticket Price: $397</span><br><span class="price-2">Today Only: $197</span></p>
-                  </div>
-                  <a href="http://7.ecompneur.pay.clickbank.net/?cbskin=23892&cbur=a" class="btn btn-success btn-lg cta mb-2" role="button" aria-pressed="true">Yes, I Want To Grab My Ticket For 50% Off Now</a>
-                  <p><u><a href="http://7.ecompneur.pay.clickbank.net/?cbskin=23892&cbur=d">No, thank you. I don’t want to come.</a></u></p>
-              </div>
+            <div class="col-lg-4 order-lg-2 mb-4 text-center right-cta">
             </div>
 <!--  col-md-4   -->
 
@@ -330,25 +351,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-     <script src="../mib/js/bootstrap.bundle.min.js"></script>
-  	 <script src="../mib/js/bootstrap.min.js"></script>
-     <script src="../mib/flip/flip.min.js"></script>
 
-     <script>
-      window.onscroll = function() {myFunction()};
-
-      var sidebar = document.getElementById("col-right");
-      var sticky = sidebar.offsetTop;
-
-      function myFunction() {
-        if (window.pageYOffset > sticky) {
-          sidebar.classList.add("sticky");
-        } else {
-          sidebar.classList.remove("sticky");
-        }
-      }
-    </script>
   </body>
 </html>

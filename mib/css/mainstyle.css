@@ -20,7 +20,7 @@ header{
 }
 
 .logos a:first-of-type {
-  padding-right: 14px; 
+  padding-right: 14px;
   margin-right: 14px;
   border-right: 1px solid white;
 }
@@ -172,7 +172,7 @@ cite{
   border-top: 45px solid #EFF9EB;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top-left-radius:10px; 
+  border-top-left-radius:10px;
   border-top-right-radius:10px;
   height: 0;
   width: 60%;
@@ -209,16 +209,16 @@ cite{
 
 .accordion button:before {
   float: right !important;
-  font-family: "Font Awesome 5 Free"; 
-  font-weight: 700; 
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
   content: "\f068";
   color: #0C6CD4;
 }
 
 .accordion button.collapsed:before {
   float: right !important;
-  font-family: "Font Awesome 5 Free"; 
-  font-weight: 700; 
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
   content: "\f067";
   color: #0C6CD4;
 }
@@ -230,12 +230,45 @@ cite{
 
 /*right-side*/
 
-.right{
+.video-floating.fixedbanner {
+	width:100%;
+	max-width:320px;
   background-color: #F4F9FC;
   border: 1px solid #0C6CD4;
-  padding: 30px;
-  position: sticky;
-  top: 20px;
+	position: fixed;
+	top:20px;
+	z-index: 999;
+	padding:15px;
+	margin:0 0 0 780px;
+	border-radius:6px;
+  animation-timing-function: ease-in-out;
+  transition: .6s;
+}
+
+.video-floating.fixedbanner .right{
+  display: block!important;
+}
+
+.video-floating.fixedbanner h1{
+  display: none;
+}
+
+.video-floating.fixedbanner .embed-responsive{
+  margin:20px 0px;
+}
+
+.video-floating.fixedbanner .announce-pill {
+  padding: 10px 30px;
+  font-size: 13px;
+}
+
+.video-floating.fixedbanner .announce-pill.mb-4{
+  margin-bottom: 10px!important;
+}
+
+.video-floating.fixedbanner .highlight-price{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .right .highlight-text p{
@@ -246,7 +279,7 @@ cite{
 
 .right h2 {
   color: #183C68;
-  font-size: 1.31rem;
+  font-size: 17px;
   font-weight: 700;
 }
 
@@ -264,11 +297,6 @@ cite{
   font-weight: 900;
   line-height: 1.1;
   color: #4A4A4A;
-}
-
-.right .embed-responsive {
-  width: 100%;
-  margin: 25px;
 }
 
 .right .highlight-price {
@@ -358,17 +386,19 @@ cite{
 
 
 @media only screen and (max-width: 1199px){
-.right{padding: 30px 15px;}
 .right .btn{padding: 10px;}
+.right p, .right .highlight-text p {font-size: 16px;}
+.right .highlight-price{font-size: 18px;}
 .highlight{font-size: 1.3em;}
 .video{width: 17rem!important;}
+.video-floating.fixedbanner {max-width:280px;margin:0 0 0 650px;}
 }
 
 @media only screen and (max-width:991px) {
 h1{font-size: 2rem;}
 .right-cta{display: none;}
 .featured{padding-top: 20px!important;padding-bottom: 20px!important;}
-.right{display: none;}
+.video-floating.fixedbanner{display: none;}
 .mobile{display: block;}
 .subscription-footer p{font-size: 1.3em; font-weight: 900;}
 .subscription-footer .btn{font-size: 1.2em;}
