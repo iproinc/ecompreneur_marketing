@@ -31,6 +31,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <!-- ClickBank Trust Badge -->
 <script src="//cbtb.clickbank.net/?vendor=ecompneur"></script>
+<script>
+  $(function() {
+      //caches a jQuery object containing the header element
+      var header = $(".video-floating");
+      $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 750) {
+              header.addClass("fixedbanner");
+          }
+          if (scroll <= 750) {
+              header.removeClass("fixedbanner");
+          }
+      });
+  });
+
+
+</script>
   </head>
   <body>
 <!-- Google Tag Manager (noscript) -->
@@ -40,15 +58,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <header>
         <div class="container">
-          <div class="py-5 text-center">
-            <a href="https://www.ecompreneur.net/"><img class="d-block mx-auto mb-4" src="../offer/images/logo.svg" alt="eCompreneur logo"></a>
+          <div class="py-5 text-center video-floating">
+            <a href="https://www.ecompreneur.net/" class="logo"><img class="d-block mx-auto mb-4" src="../offer/images/logo.svg" alt="eCompreneur logo"></a>
             <h1>How to Start an E-Commerce Dropshipping Business Capable of Generating Up To 6-Figures (or More) in Less Than 12 Weeks…</h1>
             <h2 class="my-3">All <u>without</u> having to own a warehouse, hold inventory, or even ship products!</h2>
+            <div class="right" style="display:none"><h3>How to Start an E-Commerce Dropshipping Business Capable of Generating Up To 6-Figures (or More) in Less Than 12 Weeks…</h3>
+            <h4>All <u>without</u> having to own a warehouse, hold inventory, or even ship products!</h4></div>
             <div class="embed-responsive embed-responsive-16by9 w-75 mx-auto">
               <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311349399?autoplay=1&loop=1&autopause=0&?muted=1" frameborder="0" allow="autoplay; fullscreen"></iframe>
             </div>
             <a href="http://1.ecompneur.pay.clickbank.net/?cbskin=23892&cbfid=36916" class="btn top-btn mt-4">Join eCompreneur For Just $49 USD/Month</a>
             <div class="text-white mt-3 member" style="line-height: 1.1;"><em>If You Are A Current Shopzie And/Or Tiny Member, <br>Please <strong><u><a data-toggle="modal" data-target="#myModal" class="text-white">Click Here</a></u></strong> To See If You Qualify For Our Special Discount!</em></div>
+            <div class="right" style="display:none">
+              <div class="highlight">
+              <p class="text-center value mt-4 mb-0">Total Value: $1,950 USD</p>
+              <p class="text-center was mb-0">WAS: <span class="crossout">$97 USD/Month</span></p>
+              <p class="text-center now">NOW: $49 USD/Month</p>
+            </div>
+            <a href="http://1.ecompneur.pay.clickbank.net/?cbskin=23892&cbfid=36916" class="btn d-block"><span class="yellow">50% Off Today: Just $49 USD/Month</span><br>Join eCompreneur</a>
+            <div class="darkblue text-center mt-3" style="line-height: 1.1;"><small><em>If You Are A Current Shopzie And/Or Tiny Member, Please <strong><u><a data-toggle="modal" data-target="#myModal">Click Here</a></u></strong> To See If You Qualify For Our Special Discount!</em></small></div>
+            </div>
           </div>
 <!--   top   -->
         </div>
@@ -76,20 +105,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
           <div class="row main">
             <div class="col-lg-4 order-lg-2 mb-4 text-center" id="col-right">
-              <div class="right">
-                <h2>How to Start an E-Commerce Dropshipping Business Capable of Generating Up To 6-Figures (or More) in Less Than 12 Weeks…</h2>
-                <h3>All <u>without</u> having to own a warehouse, hold inventory, or even ship products!</h3>
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311349399" frameborder="0" allow="fullscreen"></iframe>
-                </div>
-                <div class="highlight">
-                  <p class="text-center value mt-4 mb-0">Total Value: $1,950 USD</p>
-                  <p class="text-center was mb-0">WAS: <span class="crossout">$97 USD/Month</span></p>
-                  <p class="text-center now">NOW: $49 USD/Month</p>
-                </div>
-                <a href="http://1.ecompneur.pay.clickbank.net/?cbskin=23892&cbfid=36916" class="btn d-block"><span class="yellow">50% Off Today: Just $49 USD/Month</span><br>Join eCompreneur</a>
-                <div class="darkblue text-center mt-3" style="line-height: 1.1;"><small><em>If You Are A Current Shopzie And/Or Tiny Member, Please <strong><u><a data-toggle="modal" data-target="#myModal">Click Here</a></u></strong> To See If You Qualify For Our Special Discount!</em></small></div>
-              </div>
             </div>
 <!--  col-md-4   -->
 
