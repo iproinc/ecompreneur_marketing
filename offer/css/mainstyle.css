@@ -149,6 +149,13 @@ cite{
   border-radius: 8px;
 }
 
+.top-btn .value{
+  font-size: 20px;
+}
+
+.top-btn .crossout{
+  font-size: 30px;
+}
 
 
 /*left-side*/
@@ -547,7 +554,8 @@ footer.pb-5{padding-bottom: 240px!important; }
 .yellow-section.p-4, .section-title.p-4{padding:20px 10px!important;}
 .shopzie-free, .tiny-free{font-size: 18px;}
 .discount, .crossout {font-size: 17px;}
-
+.top-btn .crossout{font-size: 20px;}
+.top-btn .value{font-size: 16px;}
 }
 
 @media only screen and (max-width: 375px){
@@ -556,6 +564,8 @@ footer.pb-5{padding-bottom: 240px!important; }
 .member{font-size: 12px;}
 .subscription-footer {height: 200px;}
 footer.pb-5 {padding-bottom: 215px!important;}
+.top-btn .crossout{font-size: 18px;}
+.top-btn .value{font-size: 14px;}
 }
 
 @media only screen and (max-width: 320px){
