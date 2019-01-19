@@ -292,13 +292,50 @@ cite{
 
 /*right-side*/
 
-.right{
+.video-floating.fixedbanner {
+	width:100%;
+	max-width:320px;
   background-color: #FAFFF9;
   border: 1px solid var(--green);
-  padding: 30px;
-  position: sticky;
-  top: 20px;
-  margin-bottom: 100px;
+	position: fixed;
+	top:20px;
+	z-index: 999;
+	padding:15px;
+	margin:0 0 0 780px;
+	border-radius:6px;
+  animation-timing-function: ease-in-out;
+  transition: .6s;
+}
+
+.video-floating.fixedbanner.py-5{
+  padding-top: 20px!important;
+  padding-bottom: 20px!important;
+
+}
+
+.video-floating.fixedbanner .right{
+  display: block!important;
+}
+
+.video-floating.fixedbanner .logo, .video-floating.fixedbanner h1, .video-floating.fixedbanner h2, .video-floating.fixedbanner .top-btn, .video-floating.fixedbanner .text-white{
+  display: none;
+}
+
+.video-floating.fixedbanner h3 {
+  color: var(--blue);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.video-floating.fixedbanner h4 {
+  color: #4A4A4A;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.video-floating.fixedbanner .container {
+	padding-right: 0;
+  padding-left: 0;
 }
 
 .right h2{
@@ -434,7 +471,9 @@ cite{
 
 
 @media only screen and (max-width: 1199px){
-.right{padding: 30px 15px;}
+.video-floating.fixedbanner {max-width:280px;margin:0 0 0 650px;}
+.video-floating.fixedbanner .value{font-size: 20px;}
+.video-floating.fixedbanner .w-75 {width: 100%!important;}
 .right .btn{padding: 10px; font-size: .8em;}
 .video{width: 17rem!important;}
 .discount-bg{width: 80%;}
@@ -449,7 +488,7 @@ h3{font-size: 24px;}
 header{padding-bottom: 0px;}
 .main{padding:0 10px 10px;}
 .featured{padding-top: 20px!important;padding-bottom: 20px!important;}
-.right{display: none;}
+.video-floating.fixedbanner{display: none;}
 .mobile{display: block;}
 .subscription-footer p{font-size: 1.3em; font-weight: 900;}
 .subscription-footer .btn{font-size: 1.2em;}

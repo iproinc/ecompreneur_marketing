@@ -12,6 +12,11 @@
     <link href="../trial/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="../trial/css/mainstyle.css" rel="stylesheet" >
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="../trial/js/bootstrap.bundle.min.js"></script>
+     <script src="../trial/js/bootstrap.min.js"></script>
 
     <title>eCompreneur - Start Your eCommerce Business For Just $1.00!</title>
 <!-- Google Tag Manager -->
@@ -23,6 +28,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <!-- ClickBank Trust Badge -->
 <script src="//cbtb.clickbank.net/?vendor=ecompneur"></script>
+<script>
+  $(function() {
+      //caches a jQuery object containing the header element
+      var header = $(".video-floating");
+      $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 750) {
+              header.addClass("fixedbanner");
+          }
+          if (scroll <= 750) {
+              header.removeClass("fixedbanner");
+          }
+      });
+  });
+
+
+</script>
   </head>
   <body>
 <!-- Google Tag Manager (noscript) -->
@@ -32,12 +55,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <header>
         <div class="container">
-          <div class="py-5 text-center">
-            <a href="https://www.ecompreneur.net/"><img class="d-block mx-auto mb-4" src="../trial/images/logo.svg" alt="eCompreneur logo"></a>
+          <div class="py-5 text-center video-floating">
+            <a href="https://www.ecompreneur.net/" class="logo"><img class="d-block mx-auto mb-4" src="../trial/images/logo.svg" alt="eCompreneur logo"></a>
             <h1>Start Your eCommerce Business For Just $1.00!</h1>
             <h2 class="my-3">For Less Than A Can Of Soda At The Vending Machine, You Get To Test-Drive eCompreneur For 3 Days To Start Building Your Own eCommerce Business</h2>
+            <div class="right" style="display:none;">
+              <h3>Start Your eCommerce Business For Just $1.00!</h3>
+              <h4>For Less Than A Can Of Soda At The Vending Machine, You Get To Test-Drive eCompreneur For 3 Days To Start Building Your Own eCommerce Business</h4>
+            </div>
             <div class="mb-2 embed-responsive embed-responsive-16by9 w-75 mx-auto">
               <iframe src="https://player.vimeo.com/video/311337133?autoplay=1&loop=1&autopause=0&?muted=1" class="embed-responsive-item" frameborder="0" allow="autoplay; fullscreen"></iframe>
+            </div>
+            <div class="right" style="display:none;">
+              <p class="highlight value mt-4">Total Value: $1,950 USD</p>
+              <a href="http://6.ecompneur.pay.clickbank.net/?cbskin=23892" class="btn d-block">Try eCompreneur For Just $1 USD</a>
+              <div style="line-height:1.1" class="mt-1"><small><em>After 3 days, you will be automatically billed $49/month</em></small></div>
             </div>
             <a href="http://6.ecompneur.pay.clickbank.net/?cbskin=23892" class="btn top-btn mt-4">Try eCompreneur For Just $1 USD</a>
             <div class="text-white mt-3" style="line-height:1.1" ><em>After 3 days, you will be automatically billed $49/month</em></div>
@@ -51,17 +83,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <main>
         <div class="container">
           <div class="row main">
-            <div class="col-lg-4 order-lg-2 mb-4 text-center" id="col-right">
-              <div class="right">
-                <h2>Start Your eCommerce Business For Just $1.00!</h2>
-                <h3>For Less Than A Can Of Soda At The Vending Machine, You Get To Test-Drive eCompreneur For 3 Days To Start Building Your Own eCommerce Business</h3>
-                <div class="mb-2 embed-responsive embed-responsive-16by9 w-75 mx-auto">
-                  <iframe src="https://player.vimeo.com/video/311337133" class="embed-responsive-item" frameborder="0" allow="fullscreen"></iframe>
-                </div>
-                <p class="highlight value mt-4">Total Value: $1,950 USD</p>
-                <a href="http://6.ecompneur.pay.clickbank.net/?cbskin=23892" class="btn d-block">Try eCompreneur For Just $1 USD</a>
-                <div style="line-height:1.1" class="mt-1"><small><em>After 3 days, you will be automatically billed $49/month</em></small></div>
-              </div>
+            <div class="col-lg-4 order-lg-2 mb-4 text-center">
             </div>
 <!--  col-md-4   -->
 
@@ -649,25 +671,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-     <script src="../trial/js/bootstrap.bundle.min.js"></script>
-  	 <script src="../trial/js/bootstrap.min.js"></script>
 
-     <script>
-      window.onscroll = function() {myFunction()};
-
-      var sidebar = document.getElementById("col-right");
-      var sticky = sidebar.offsetTop;
-
-      function myFunction() {
-        if (window.pageYOffset > sticky) {
-          sidebar.classList.add("sticky");
-        } else {
-          sidebar.classList.remove("sticky");
-        }
-      }
-    </script>
   </body>
 </html>
