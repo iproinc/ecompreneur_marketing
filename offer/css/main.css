@@ -86,6 +86,11 @@ body {
   align-items: center;
 }
 
+.cta-container .fas {
+  float: none;
+  padding: 0;
+}
+
 .cta-btn {
   color: #0AB546;
   background-color: white;
