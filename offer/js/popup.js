@@ -26,8 +26,10 @@ function check_account_ajax(email, callback){
     url: 'https://www.ecompreneur.net/check_recurly_account',
     type: "POST",
     dataType: 'jsonp',
-    headers: {  'Access-Control-Allow-Origin': 'https://ecompreneur.net' },
     crossDomain: true,
+    headers: {
+      'Access-Control-Allow-Origin': '*'
+    },
     data: {
       email: email
     },
