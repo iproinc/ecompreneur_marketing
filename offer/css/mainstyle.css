@@ -180,7 +180,9 @@ cite{
   background: transparent;
 }
 
-.fas{padding: 5px 0 15px; float: left; }
+.fas{
+  padding: 5px 0 15px; float: left; 
+}
 
 .shopzie{
   background: rgba(222,185,195,0.10);
